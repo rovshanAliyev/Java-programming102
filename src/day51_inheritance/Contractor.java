@@ -1,16 +1,16 @@
 package day51_inheritance;
 
-public class Employee {
-
+public class Contractor extends Employee {
     String jobTitle;
 
+    @Override
     public double calculateSalary(double hourlyRate) {
-        return 52 * 40 *hourlyRate * 1.1;
+        return 50 * 40 * hourlyRate;
     }
 
     @Override
     public String toString() {
-        return "Employee{" +
+        return "Contractor{" +
                 "jobTitle='" + jobTitle + '\'' +
                 '}';
     }
