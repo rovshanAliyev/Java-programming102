@@ -4,13 +4,22 @@ import java.util.Scanner;
 
 public class day1 {
 
-        public static void main(String[] args) {
-            Scanner in = new Scanner(System.in);
-            day0 a = new day0();
-            a.name = in.next();
-            a.color = in.next();
-            a.amount = in.nextInt();
+    static int a;
+    int b;
 
-            System.out.println(a.asString());
-        }
+
+    public static void main(String[] args) {
+        day1 obj1 = new day1();
+        obj1.b= 10;
+        obj1.a=20;
+        day1 obj2 = new day1();
+        obj2.b=30;
+        obj2.a=40;
+        System.out.println(obj1.a + "" + obj1.b);
+
+
+
     }
+
+
+}
