@@ -6,14 +6,36 @@ public class ElectricCar {
     private double price;
     private int year;
     private int range;
+    private static int count;
 
+    public ElectricCar(String model, String make, double price, int year, int range) {
+        this.model = model;
+        setMake(make);
+        this.price = price;
+        this.year = year;
+        this.range = range;
+        count++;
+    }
 
+    public static int getCount() {
+        return count;
+    }
+
+    @Override
+    public String toString() {
+        return "ElectricCar{" +
+                "model='" + model + '\'' +
+                ", make='" + make + '\'' +
+                ", price=" + price +
+                ", year=" + year +
+                ", range=" + range +
+                '}';
+    }
 
     protected void drive(int miles) {
         if (range == 0 || range - miles < 0) {
             System.out.println("ERROR: Cannot drive that far, need to charge?");
         } else {
-            range -= miles;
             System.out.println("Driving " + miles + " miles ...");
         }
     }
@@ -39,7 +61,11 @@ public class ElectricCar {
     }
 
     public void setMake(String make) {
-        this.make = make;
+        if (make.isEmpty()) {
+            System.out.println("ERROR: Make cannot be blank");
+        } else {
+            this.make = make;
+        }
     }
 
     public double getPrice() {
