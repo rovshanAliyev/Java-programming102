@@ -1,25 +1,37 @@
 package officeHours.Practice;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class day1 {
+    public static boolean same(String a, String b) {
 
-    static int a;
-    int b;
+        char[] ch1 = a.toCharArray();
 
+        char[] ch2 = b.toCharArray();
 
-    public static void main(String[] args) {
-        day1 obj1 = new day1();
-        obj1.b= 10;
-        obj1.a=20;
-        day1 obj2 = new day1();
-        obj2.b=30;
-        obj2.a=40;
-        System.out.println(obj1.a + "" + obj1.b);
+        Arrays.sort(ch1);
+
+        Arrays.sort(ch2);
 
 
+
+        return Arrays.toString(ch1).equals(Arrays.toString(ch2));
+
+//        for (char each : ch1)
+//
+//            a1 += each;
+//
+//
+//        for (char each : ch2)
+//
+//            a2 += each;
 
     }
 
+    public static void main(String[] args) {
+        System.out.println(same("abc", "cba"));
+
+    }
 
 }
