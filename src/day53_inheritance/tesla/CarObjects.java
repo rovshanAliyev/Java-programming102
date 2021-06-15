@@ -24,5 +24,21 @@ public class CarObjects {
 
         System.out.println(ElectricCar.getCount());
 
+        Roadster roadster = new Roadster("Roadster", 200000, 2022, 620);
+        System.out.println(roadster.toString());
+        roadster.drive(1000);
+        roadster.drive(600);
+        System.out.println(roadster.getCount());
+
+        ModelX modelX = new ModelX("Model X", "Tesla", 89000, 2021, 360);
+        System.out.println(modelX.toString());
+        modelX.drive(25);
+        System.out.println("Having a dinner");
+        modelX.drive(25);
+        System.out.println("Range remaining = " + modelX.getRange());
+        System.out.println("Total electric cars count = " + ElectricCar.getCount());
+
+
+
     }
 }
