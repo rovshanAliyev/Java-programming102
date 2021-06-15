@@ -7,6 +7,7 @@ public class ElectricCar {
     private int year;
     private int range;
     private static int count;
+    public static final int MAX_RANGE = 400;
 
     public ElectricCar(String model, String make, double price, int year, int range) {
         this.model = model;
@@ -15,6 +16,11 @@ public class ElectricCar {
         this.year = year;
         this.range = range;
         count++;
+    }
+
+    public final void charge() {
+        System.out.println("Charging the Electric car using plug-in");
+        this.range = MAX_RANGE;
     }
 
     public static int getCount() {
