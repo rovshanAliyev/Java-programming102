@@ -13,6 +13,7 @@ public class TC4 {
             for (int j = 0; j < str.length(); j++) {
                 if (str.charAt(i) == str.charAt(j)) {
                     num++;
+
                 }
             }
 
