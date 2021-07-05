@@ -19,6 +19,7 @@ public class Link implements WebElement {
 
     @Override
     public String getText() {
+        System.out.println("Getting link text");
         return "Oracle java";
     }
 }
