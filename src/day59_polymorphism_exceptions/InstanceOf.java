@@ -1,6 +1,5 @@
 package day59_polymorphism_exceptions;
 
-import day56_abstraction.drivable.Plane;
 import day57_abstraction_polymorhism.shapes.Circle;
 import day57_abstraction_polymorhism.shapes.Shape;
 import day57_abstraction_polymorhism.shapes.Square;
