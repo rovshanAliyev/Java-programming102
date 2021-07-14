@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96eadf2a-b778-4c91-93b9-d590a63e56af" name="Default Changelist" comment="day 47 added composition examples using bus">
-      <change afterPath="$PROJECT_DIR$/src/day48_constructors_static/BusObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_constructors_static/static_examples/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day48_constructors_static/static_examples/CalculatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/BreakTimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/CustomExceptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/ElementaryStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/ElementaryStudentTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/ErrorExamples.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/InsufficientBalanceException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/checked_exceptions/CheckExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/checked_exceptions/ReadFromFIle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/checked_exceptions/data.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/day48_constructors_static/Bus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day48_constructors_static/Bus.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +43,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1ou9xMxLUf5OrQW01jGgxparSLY" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
@@ -117,13 +124,13 @@
       <recent name="day45_oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CalculatorTest">
-    <configuration name="BusObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_constructors_static.BusObjects" />
+  <component name="RunManager" selected="Application.ReadFromFIle">
+    <configuration name="CustomExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day61_exceptions_collections.CustomExceptionTest" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_constructors_static.*" />
+          <option name="PATTERN" value="day61_exceptions_collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_constructors_static.static_examples.CalculatorTest" />
+    <configuration name="ElementaryStudentTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day61_exceptions_collections.ElementaryStudentTest" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_constructors_static.static_examples.*" />
+          <option name="PATTERN" value="day61_exceptions_collections.BreakTimeException" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerObject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_constructors_static.CustomerObject" />
+    <configuration name="ErrorExamples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day61_exceptions_collections.ErrorExamples" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_constructors_static.*" />
+          <option name="PATTERN" value="day61_exceptions_collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,12 +164,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CybertekGroups" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day48_constructors_static.CybertekGroups" />
+    <configuration name="ReadFromFIle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day61_exceptions_collections.checked_exceptions.ReadFromFIle" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day48_constructors_static.*" />
+          <option name="PATTERN" value="day61_exceptions_collections.checked_exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -183,12 +190,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentObjects" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day47_constructors.StudentObjects" />
+    <configuration name="ThrowingException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day60_exceptions.ThrowingException" />
       <module name="Java-programming" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="day47_constructors.*" />
+          <option name="PATTERN" value="day60_exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,19 +216,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.StringUtilsTest" />
-      <item itemvalue="Application.StudentObjects" />
-      <item itemvalue="Application.CustomerObject" />
-      <item itemvalue="Application.CybertekGroups" />
-      <item itemvalue="Application.BusObjects" />
-      <item itemvalue="Application.CalculatorTest" />
+      <item itemvalue="Application.ThrowingException" />
+      <item itemvalue="Application.ElementaryStudentTest" />
+      <item itemvalue="Application.CustomExceptionTest" />
+      <item itemvalue="Application.ErrorExamples" />
+      <item itemvalue="Application.ReadFromFIle" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CalculatorTest" />
-        <item itemvalue="Application.BusObjects" />
-        <item itemvalue="Application.CybertekGroups" />
-        <item itemvalue="Application.CustomerObject" />
-        <item itemvalue="Application.StudentObjects" />
+        <item itemvalue="Application.ReadFromFIle" />
+        <item itemvalue="Application.ErrorExamples" />
+        <item itemvalue="Application.CustomExceptionTest" />
+        <item itemvalue="Application.ElementaryStudentTest" />
+        <item itemvalue="Application.ThrowingException" />
       </list>
     </recent_temporary>
   </component>
@@ -306,6 +313,7 @@
       <workItem from="1621014046136" duration="3571000" />
       <workItem from="1621186891368" duration="20000" />
       <workItem from="1622405965150" duration="13034000" />
+      <workItem from="1626143976561" duration="8329000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1622406235247</created>
@@ -358,6 +366,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
