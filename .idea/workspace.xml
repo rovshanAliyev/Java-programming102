@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96eadf2a-b778-4c91-93b9-d590a63e56af" name="Default Changelist" comment="day 47 added composition examples using bus">
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/BreakTimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/CustomExceptionTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/ElementaryStudent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/ElementaryStudentTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/ErrorExamples.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/InsufficientBalanceException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/checked_exceptions/CheckExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/checked_exceptions/ReadFromFIle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day61_exceptions_collections/checked_exceptions/data.txt" afterDir="false" />
+    <list default="true" id="96eadf2a-b778-4c91-93b9-d590a63e56af" name="Default Changelist" comment="day 61 done">
+      <change afterPath="$PROJECT_DIR$/src/day62_collections/ArrayListDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/day62_collections/LinkListDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +19,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="day61_exceptions_collections_" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="day61_exceptions_collections_" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -124,7 +120,7 @@
       <recent name="day45_oop" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ReadFromFIle">
+  <component name="RunManager" selected="Application.LinkListDemo">
     <configuration name="CustomExceptionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day61_exceptions_collections.CustomExceptionTest" />
       <module name="Java-programming" />
@@ -164,6 +160,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="LinkListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="day62_collections.LinkListDemo" />
+      <module name="Java-programming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="day62_collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ReadFromFIle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="day61_exceptions_collections.checked_exceptions.ReadFromFIle" />
       <module name="Java-programming" />
@@ -190,45 +199,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowingException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="day60_exceptions.ThrowingException" />
-      <module name="Java-programming" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="day60_exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.StringUtilsTest" />
-      <item itemvalue="Application.ThrowingException" />
       <item itemvalue="Application.ElementaryStudentTest" />
       <item itemvalue="Application.CustomExceptionTest" />
       <item itemvalue="Application.ErrorExamples" />
       <item itemvalue="Application.ReadFromFIle" />
+      <item itemvalue="Application.LinkListDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkListDemo" />
         <item itemvalue="Application.ReadFromFIle" />
         <item itemvalue="Application.ErrorExamples" />
         <item itemvalue="Application.CustomExceptionTest" />
         <item itemvalue="Application.ElementaryStudentTest" />
-        <item itemvalue="Application.ThrowingException" />
       </list>
     </recent_temporary>
   </component>
@@ -314,6 +299,10 @@
       <workItem from="1621186891368" duration="20000" />
       <workItem from="1622405965150" duration="13034000" />
       <workItem from="1626143976561" duration="8329000" />
+      <workItem from="1626283598665" duration="869000" />
+      <workItem from="1626291131850" duration="5560000" />
+      <workItem from="1626736750575" duration="653000" />
+      <workItem from="1626808643505" duration="607000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1622406235247</created>
@@ -374,7 +363,8 @@
     <MESSAGE value="day 47 added new classes" />
     <MESSAGE value="day 47 added group objects" />
     <MESSAGE value="day 47 added composition examples using bus" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 47 added composition examples using bus" />
+    <MESSAGE value="day 61 done" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 61 done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
